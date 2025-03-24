@@ -1,0 +1,23 @@
+text {
+  font-size: 10px;
+  text-anchor: middle;
+  fill: #4f442b;
+}
+
+g > text.active {
+  font-size: 30px;
+}
+
+circle {
+  fill: transparent;
+  stroke: transparent;
+  stroke-width: 1px;
+}
+
+circle.active {
+  fill: #FE9922;
+}
+
+circle.inactive {
+  fill: #C4B9AC;
+}
