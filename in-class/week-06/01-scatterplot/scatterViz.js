@@ -4,42 +4,44 @@ function createScatterViz() {
     .catch(err => errorHandling(err))
 }
 
-function overallViz(scatterData) {
-  console.log(scatterData);
+function overallViz(incomingData) {
+  console.log(incomingData);
 
   // 1) representing the data using circle
   // the x coordinate uses the index position instead salary to avoid
   // plotting outside the SVG area
   // d3.select("svg").selectAll("circle")
-  //   .data(scatterData)
+  //   .data(incomingData)
   //   .join("circle")
   //   .attr("r", 5)
   //   .attr("cx", (d, i) => i*10)
   //   .attr("cy", d => parseFloat(d.num_of_friends))
 
   // 2) build scales 
-  let xExtent = d3.extent(scatterData, d => parseInt(d.salary));
-  let yExtent = d3.extent(scatterData, d => parseInt(d.num_of_friends));
+  let xExtent = d3.extent(incomingData, d => parseInt(d.salary));
+  let yExtent = d3.extent(incomingData, d => parseInt(d.num_of_friends));
   console.log(xExtent, yExtent);
-  const xMargin = 0;     // change into 5_000
-  const yMargin = 0;       // change into 10
+  const xMargin = 5000;     // change into 5_000
+  const yMargin = 10;       // change into 10
   let xScale = d3.scaleLinear().domain([0, xExtent[1]+xMargin]).range([40, 460]);
   let yScale = d3.scaleLinear().domain([0, yExtent[1]+yMargin]).range([460, 40]);
   console.log(xScale(xExtent[0]), yScale(yExtent[0]));
 
   d3.select("svg").selectAll("circle")
-    .data(scatterData)
+    .data(incomingData)
     .join("circle")
     .attr("r", 5)
     .attr("cx", d => xScale(parseInt(d.salary)))
     .attr("cy", d => yScale(parseInt(d.num_of_friends)));
 
   // // 3) add axes
-  let yAxis = d3.axisLeft().scale(yScale);
+  let yAxis = d3.axisLeft().scale(yScale)
+    .ticks(8).tickSizeOuter(0).tickSizeInner(5);
   d3.select("svg").append("g").attr("id", "yAxisG").call(yAxis);
   d3.selectAll("#yAxisG").attr("transform", "translate(40, 0)");
 
-  let xAxis = d3.axisBottom().scale(xScale);
+  let xAxis = d3.axisBottom().scale(xScale)
+    .ticks(8).tickSizeOuter(5).tickSizeInner(5);
   d3.select("svg").append("g").attr("id", "xAxisG").call(xAxis);
   d3.selectAll("#xAxisG").attr("transform", "translate(0, 460)");
 
