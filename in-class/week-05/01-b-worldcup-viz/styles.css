@@ -1,0 +1,27 @@
+/* * {
+  outline: 1px solid lightblue;
+} */
+
+text {
+  font-size: 10px;
+  text-anchor: middle;
+  fill: #4f442b;
+}
+
+g > text.active {
+  font-size: 30px;
+}
+
+circle {
+  fill: #75739F;
+  stroke: black;
+  stroke-width: 1px;
+}
+
+circle.active {
+  fill: #FE9922;
+}
+
+circle.inactive {
+  fill: #C4B9AC;
+}
