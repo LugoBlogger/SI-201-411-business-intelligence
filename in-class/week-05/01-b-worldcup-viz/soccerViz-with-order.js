@@ -1,3 +1,18 @@
+/*
+Logs 
+- [2025/03/25]    
+  This problem is coming from the discussion during the class in Week-05.   
+  Actually we need to move beyond <g>, and use one by one <circle> and <text>.
+  Then we have to set the "id" attribute for each circle for detecting
+  the index of hovered circle.
+
+  All the idea is coming from,
+  https://using-d3js.com/02_04_reordering_elements.html,
+  with some modification.
+
+  It took me more than 6 hours to solve this. 
+ */
+
 function createSoccerViz() {
   d3.csv("../../datasets/worldcup.csv")
     .then(data => {overallTeamViz(data)})
