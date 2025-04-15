@@ -18,7 +18,7 @@ aspect of business intelligence by building a dashboard using
 code. So, here I make a list of books in the reference 
 that will be valuable for learning this course. For the cases in real life
 applications, I will use (Sharda et al., 2024). This book
-is a mangerial persepctive and only gives us a bird's eye view. 
+is a managerial persepctive and only gives us a bird's eye view. 
 
 ## References
 - (Vercellis, 2009) - Business Intelligence: 
