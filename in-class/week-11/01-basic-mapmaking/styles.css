@@ -1,0 +1,11 @@
+path.countries {
+  stroke-width: 1;
+  stroke: #75739F;
+  fill: #5EAFC6
+}
+
+circle.cities {
+  stroke-width: 1;
+  stroke: #4F442B;
+  fill: #FCBC34;
+}

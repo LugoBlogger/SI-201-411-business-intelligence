@@ -13,8 +13,14 @@ function overallViz(incomingData) {
   // console.log(countries)
   // console.log(cities)
 
-  let projection = d3.geoMercator()
-    .scale(80).translate([250, 250])
+  // -- mercator projection
+  // let projection = d3.geoMercator()
+  //   .scale(80).translate([250, 250])
+
+  // -- mollweide projection
+  let projection = d3.geoMollweide()
+    .scale(120).translate([250, 250]);
+
   let geoPath = d3.geoPath().projection(projection);
 
   // -- scaling color
@@ -31,7 +37,13 @@ function overallViz(incomingData) {
     .style("fill", d => countryColor(geoPath.area(d)))
     .style("stroke", d => d3.rgb(countryColor(geoPath(d))));
   
-
+  d3.select("svg").selectAll("circle")
+    .data(cities)
+    .join("circle")
+    .attr("class", "cities")
+    .attr("r", 3)
+    .attr("cx", d => projection([d.x, d.y])[0])
+    .attr("cy", d => projection([d.x, d.y])[1])
 
 }
 
