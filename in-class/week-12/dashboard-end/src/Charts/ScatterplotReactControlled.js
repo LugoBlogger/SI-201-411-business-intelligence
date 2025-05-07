@@ -1,4 +1,4 @@
-import Card from '../UI/Card';
+import Card from '../UI/Card.js';
 import ChartContainer from '../ChartComponents/ChartContainer.js';
 import * as d3 from 'd3';
 import Circle from "../ChartComponents/Circle.js";
