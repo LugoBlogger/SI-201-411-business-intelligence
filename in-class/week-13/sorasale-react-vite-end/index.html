@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorasale is a sales dashboard</title>
+    <style>
+      html[data-theme="light"] {
+        background: #fdfdfd;
+      }
+      html[data-theme="dark"] {
+        background: #121212;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+
+<script>
+  /** For persisting dark mode or light mode on refresh the page 
+   * after the setting */
+  (function(){
+    const storageKey = "theme";
+    const setTheme = (darkMode)  => {
+      document.firstElementChild.setAttribute("data-theme", darkMode ? "dark" : "light");
+    };
+
+    const mql = window.matchMedia("(prefers-color-scheme:dark)");
+    const storedTheme = localStorage.getItem(storageKey);
+    const darkMode = storedTheme ? JSON.parse(storedTheme) : mql.matches;
+
+    setTheme(darkMode);
+    localStorage.setItem(storageKey, darkMode);
+  })()
+</script>
