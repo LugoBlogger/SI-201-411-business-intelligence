@@ -87,3 +87,7 @@ Dark mode
 
 Managing duplication    
 <img src="./img-slides/tailwindcss-duplicate.png" width=400>
+
+<video control>
+  <source src="./img-slides/tailwindcss-doc-responsive-2025-05-20_11.40.56.mp4">
+</video>
