@@ -48,21 +48,42 @@ npm run dev
 ```
 
 ### Start using Tailwind in your HTML
-Make sure your compiled CSS is included in the `<head>` 
-(your framework might handle this for you), then start using Tailwind's 
-utility classes to style your content.
-```html
-<!doctype html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/src/styles.css" rel="stylesheet">
-</head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-</body>
-</html>
+Because we use template project for Vite, we can start editing from `App.jsx`.
+Replace the content of `App.jsx` with
+```jsx
+const App = () => {
+  return (
+    <>
+      <h1 class="my-3 mx-3 text-3xl font-bold underline">
+        Hello World React + Vite + Tailwind CSS</h1>
+    </>
+  )
+}
+
+export default App;
 ```
+
+If you follow the procedure correctly, you will get
+
+<img src="./img-slides/hello-world-react-vite-tailwindcss.png" width=600>
+
+## Understanding core concepts
+
+Overview
+
+<img src="./img-slides/tailwindcss-doc-overview.png" width=600>
+
+Responsive   
+<img src="./img-slides/tailwindcss-doc-responsive.gif" width=400>
+
+Hover state   
+<img src="./img-slides/tailwindcss-doc-hover-button.gif" width=400>
+
+Flexbox responsive   
+<img src="./img-slides/tailwindcss-doc-flexbox.gif">
+
+Dark mode   
+<img src="./img-slides/tailwindcss-dark-mode.png" width=400>
+
+Managing duplication    
+<img src="./img-slides/tailwindcss-duplicate.png" width=400>

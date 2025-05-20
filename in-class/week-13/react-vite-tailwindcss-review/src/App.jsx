@@ -11,7 +11,7 @@ import user05 from './assets/user05.avif';
 
 // import './App.css'
 
-function App() {
+const App = () => {
   const [count, setCount] = useState(0)
 
   const contributors = [
@@ -27,6 +27,7 @@ function App() {
       <h1 class="my-3 mx-3 text-3xl font-bold underline">
         Hello World React + Vite + Tailwind CSS</h1>
 
+      <div class="mt-100"></div>
       {/* Overview */}
       <h1 class="my-3 mx-3 text-2xl">Overview</h1>
       <div class="mx-auto flex max-w-sm items-center gap-x-4 rounded-xl 
@@ -40,6 +41,7 @@ function App() {
         </div>
       </div> 
 
+      <div class="mt-30"></div>
       <div class="mx-auto mt-5 flex flex-col gap-2 p-8 max-w-sm 
           sm:flex-row sm:items-center sm:gap-6 
           sm:py-4 bg-white rounded-xl shadow-md outline outline-black/5">
@@ -58,6 +60,7 @@ function App() {
           </button>
         </div>
       </div>
+      <div class="mb-50"></div>
 
       {/* Thinking in utility classes */}
       <h1 class="mx-2 mt-5 mb-3 text-2xl">Thinking in utility classes</h1>
@@ -69,6 +72,7 @@ function App() {
           text-white">
         Save changes</button>
       </div>
+      <div class="mb-50"></div>
 
       {/* -- Media queries and breakpoints */}
       <h2 class="mx-2 mt-5 text-xl">Media queries and breakpoints</h2>
@@ -80,6 +84,7 @@ function App() {
         <div class="bg-sky-500 text-white font-mono text-center rounded-lg p-6">05</div>
         <div class="bg-sky-500 text-white font-mono text-center rounded-lg p-6">06</div>
       </div>
+      <div class="mt-50"></div>
 
       {/* -- Targeting dark mode */}
       <h2 class="mx-2 mt-5 text-xl">Targeting dark mode</h2>      
@@ -148,7 +153,8 @@ function App() {
           <a href="#" class="text-blue-500">+198 others</a>
         </div>
       </div>
-
+      <div class="mt-10"></div>
+  
       {/* <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -173,4 +179,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
