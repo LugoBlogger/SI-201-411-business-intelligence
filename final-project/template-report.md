@@ -1,75 +1,80 @@
-# Judul tugas besar yang dibuat
+# Your final project title
 
-- Nama mahasiswa 1 (NIM) (80%)
-- Nama mahasiswa 2 (NIM) (100%)
-- Nama mahasiswa 3 (NIM) (20%)
-- Nama mahasiswa 4 (NIM) (100%)
-- dst.
+- Student's full name 1 (Student ID) (80%)
+- Student's full name 2 (Student ID) (100%)
+- Student's full name 3 (Student ID) (20%)
+- Student's full name 4 (Student ID) (100%)
+- etc.
 
-**Catatan**: 
-- Tidak perlu mengubah apapun dari template ini. 
-- Bagian **Catatan** ini silahkan dihapus ketika melakukan pengumpulan.
-- Laporan diperbolehkan ditulis dalam bahasa Indonesia atau bahasa Inggris.
-- Silahkan ganti nama berkas markdown menjadi **Group\_#-ProjectName.md**.
-  _Hashtag_ diganti dengan nomor kelompok kalian (format 1 digit).
+**Notes**:
+- You do not need to change the layout, please focus on the content
+- This **Notes** section must be removed when you are submitting this markdown
+  report
+- You can write the report in Bahasa Indonesia or English.
+- Please change the this markdown report filename into 
+  **Group\_#-ProjectName.md**. The symbol `#` must be changed based on 
+  your group's number (using 1 digit format).
 
-## Pendahuluan
-Beberapa paragraf pengantar untuk membawa pembaca memahami project atau 
-_dashboard_ yang kalian buat. 
-Dapat menggunakan struktur dari hal yang umum mengerucut ke hal yang khusus.
-Dapat juga menceritakan alasan permasalahan yang mendasari project atau 
-_dashboard_ yang kalian buat. Serta tambahkan tujuan proyek yang kalian
-buat untuk menyelesaikan menjawab hal apa saja. 
+## Introduction (Pendahuluan)
+This section should describe an introduction for the reader to understand
+your project or dashboard that you build. 
+You can use a pattern of general topic to specific topic when starting
+this section. 
+You can explain the reason why do you start the project or the dashboard.
+Add your project's goals that you will be answered in the conclusion.
 
-Ceritakan mengenai data yang digunakan berasal dari sumber apa.
+Please tell more about the data that you used, and mention the source or origin.
 
-Di bagian ini boleh menambahkan sitasi. Sebagai contoh 
+In this part, you can add citations to your references. For example
 <a href="#div_ref3">(Vercellis, 2009)</a>, 
 <a href="#div_ref4">(Sharda et al., 2024)</a> dan 
 <a href="#div_ref5">(Wexler et al., 2017)</a>. 
-Perlu diingat apabila melakukan sitasi, perlu dipahami bahwa kalimat, 
-paragraf atau ide yang disitasi harus dipahami oleh kalian sebagai penulis.
-Tidak diperboleh melakukan _isolated sentences_, yaitu melakukan sitasi
-tanpa memahami konteks kalimat, paragraf atau ide yang disitasi dengan 
-alur tulisan yang kalian buat.
 
-## Tinjauan Pustaka
-Ceritakan proyek atau _dashboard_ yang serupa dengan yang kalian buat dengan
-yang dibuat oleh orang lain.
-Sertakan beberapa acuan atau _dashboard_ yang menjadi contoh atau rujukan 
-utama jika kalian menggunakan proyek orang lain.
+Things to remember when add citations are to udnerstand that the sentence
+that you are using on this report must be understood by you. 
+It is not a good way only using _isolated sentences_ which is using citations
+without understanding the context of the sentence, paragraph, or the idea
+about the cited references.
 
-Contoh sitasi menggunakan `<a href>` <a href="#div_ref1">(Google, 2024)</a>, 
+## Literature Review (Tinjauan Pustaka)
+Please describe the projects or dashboards that have the similarity to your
+project or dashboard.  
+Add some reference or dashboard that you are using as a base template if
+you are using someone's works.
+
+An example of citation is using `<a href>` 
+<a href="#div_ref1">(Google, 2024)</a>, 
 <a href="#div_ref2">(Flanagan, 2020)</a>
 
 
-## Metode Penyelesaian
-Ceritakan mengenai pengolahan data hingga siap dilakukan penyusunan _dashboard_.
+## Methods (Metode Penyelesaian)
+Explain the technique to process the data until it is ready for 
+displaying in the dashboard.
 
-Ceritakan bagaimana cara menyusun proyek atau _dashboard_ tersebut.
-Ceritakan juga _tools_ dan _library_ yang digunakan. Tambahkan _flowchart_
-yang menjelaskan tahapan secara garis besar dari awal ide hingga sampai 
-selesai menyusun proyek atau _dashboard_.
+Tell about how to construct the project or your dashboard. 
+List all the tools and library that you are using. Add flowchart 
+to explain the overview of your project that shows from the beginning
+to the end of the project.
 
-## Hasil Program
-Sertakan gambar dan/atau diagram.
-Sertakan ulasan selama proses pembuatan apabila ada hambatan dan 
-bagaimana trik untuk menyelesaikannya. 
-Ulas beberapa fitur tambahan yang tidak ditemukan di acuan utama apabila
-menggunakan acuan utama sebagai landasan proyek kalian.
+## Results and Discussion (Hasil Program)
+Add figures and/or diagrams.  
+Add some discussion during your project's creation if there are some
+challenges and how do you deal with that.
+Discuss some additional features that are not found in the main references
+if you use someone's work as your base template.
 
-Sertakan alasan hal apa yang bisa didapatkan dengan menampilkan data yang 
-diperoleh dengan teknik visualisasi yang dipilih.
+Add the argument what kind of insights that you can get by showing
+the data with the specific visualization techniques that you have choosen.
 
-Dapat juga menyertakan tautan video demonstrasi penggunaan atau peng-operasian
-_dashboard_ yang kalian buat.
+You can add some video links to demonstrate how-to-use or how-to-operate
+the dashboard.
 
-## Kesimpulan
-Ceritakan hal-hal yang dapat kalian pelajari selama proses pembuatan proyek 
-tersebut.
-Kekurangan, kelebihan, dan rencana tahapan apabila proyek dilanjutkan
+## Conclusion (Kesimpulan)
+Descibe about all the things that you have learned during the project's creation.
+Explain the weakness, strenghtness, and the future plan of you continue 
+the project
 
-## Daftar pustaka
+## References (Daftar Pustaka)
 - <div id="div_ref1"> 
     <a href="https://d3js.org/what-is-d3">
       https://d3js.org/what-is-d3</a>, 
