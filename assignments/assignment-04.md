@@ -2,7 +2,7 @@
 
 <table>
   <tr>
-    <td style="text-align:right"> Given data :
+    <td style="text-align:right"> Given date :
     <td> May 21st, 2025
   <tr>
     <td style="text-align:right"> Due date :
