@@ -10,7 +10,7 @@ In "Trying Vite Online", select "Javascript" column and "react" row. It
 will bring you to StackBlitz website. In the project directory, click
 "Download Project" (cloud with down arrow icon), to get this base template.
 
-Put the downloaded into your working directory: `week-13/react-vite-tailwindcss-review`. 
+Put the downloaded zip file into your working directory: `week-13/react-vite-tailwindcss-review`. 
 Extract the downloaded .zip file, and put out the contents.
 
 ## Preparation
@@ -30,6 +30,7 @@ Add the `@tailwindcss/vite` plugin to your Vite configuration.
 **vite.config.js**
 ```js
 import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
