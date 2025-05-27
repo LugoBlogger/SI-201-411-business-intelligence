@@ -1,5 +1,8 @@
 # React + Vite (+ Tailwind CSS)
 
+**Note**: All the file in this subdirectory are the end result. Follow
+the below procedures to start your initial template.
+
 This template provides a minimal setup to get React working in Vite with 
 HMR and some ESLint rules. You can download this base template from
 [Vite documentation](https://vite.dev/guide/#trying-vite-online).
@@ -34,12 +37,14 @@ export default defineConfig({
 ```
 
 ### Import Tailwind CSS
-Add an `@import` to your CSS file that imports Tailwind CSS.    
+Remove all the contents of `/src/index.css` and add an `@import` to your CSS file 
+that imports Tailwind CSS.    
 **./src/index.css** 
 ```css
 @import "tailwindcss";
 ```
 
+Remove also the contents of `/src/App.css/`
 
 ### Start your buiild process
 Run your build process with `npm run dev` or whatever command is configured in your `package.json` file.

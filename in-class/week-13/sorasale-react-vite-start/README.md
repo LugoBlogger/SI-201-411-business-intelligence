@@ -74,3 +74,6 @@ start again with `npm run dev`
 
 Install also the `Tailwind CSS IntelliSense` VSCode extension
 
+
+
+From here, continue to read `/notes/13-case-a-sales-dashboard.md`

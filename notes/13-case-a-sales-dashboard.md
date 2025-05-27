@@ -1,4 +1,4 @@
-# Week 13 - Case Study 1: Sorasale Sales Dashboard
+# Week 13 - Case Study A: Sorasale Sales Dashboard
 
 
 ## React, Vite and Tailwind CSS short introduction
