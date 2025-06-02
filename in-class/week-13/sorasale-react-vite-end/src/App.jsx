@@ -21,8 +21,8 @@ function App() {
 
         {/** Column 2 start */}
         <section className="p-4 pb-16 border-bordercolor lg:border-l-2">
-          {/* <Users />
-          <Engagement /> */}
+          <Users />
+          <Engagement />
         </section>
         {/** Column 2 end */}
       </main>

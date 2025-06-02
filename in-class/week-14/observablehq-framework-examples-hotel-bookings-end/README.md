@@ -8,6 +8,25 @@ This dashboard explores reservation data for a resort in Portugal from Antonio _
 
 **Data source:** Antonio et al (2021). Hotel booking demand datasets. Data in Brief (22): 41-49. https://doi.org/10.1016/j.dib.2018.11.126
 
+## Installation
+
+We use Node.js 22.14.0
+```
+nvm use 22.14.0
+```
+
+Install all modules in `package.json`
+```
+npm install
+```
+
+Run the localhost
+```
+npm run dev
+```
+
+
+
 ## Implementation
 
 ```
