@@ -10,5 +10,9 @@ in-class/week-14/observablehq-framework-examples-hotel-bookings-end/node_modules
 
 in-class/week-14/*.gif
 in-class/week-14/*.mp4
+
 in-class/week-15/*.gif
 in-class/week-15/*.mp4
+in-class/week-15/node_modules
+in-class/week-15/package.json
+in-class/week-15/package-lock.json
