@@ -91,9 +91,6 @@ def create_elastic_datasource():
         if response.status_code == 200:
             print(f"{Fore.GREEN}{description} executed successfully{Style.RESET_ALL}")
             return True
-        elif response.status_code == 409:
-            print(f"{Fore.GREEN}{description} already exists. Continuing...{Style.RESET_ALL}")
-            return True
         else:
             print(f"{Fore.RED}{description} failed with status code {response.status_code}{Style.RESET_ALL}")
             return False
